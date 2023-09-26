@@ -1,0 +1,93 @@
+PODS:
+  - Alamofire (5.4.4)
+  - AppAuth (1.6.2):
+    - AppAuth/Core (= 1.6.2)
+    - AppAuth/ExternalUserAgent (= 1.6.2)
+  - AppAuth/Core (1.6.2)
+  - AppAuth/ExternalUserAgent (1.6.2):
+    - AppAuth/Core
+  - BoxSDK (5.5.0):
+    - BoxSDK/Core (= 5.5.0)
+  - BoxSDK/Core (5.5.0)
+  - ffmpeg-kit-ios-full (5.1)
+  - GoogleAPIClientForREST/Core (3.1.0):
+    - GTMSessionFetcher/Full (< 4.0, >= 1.6.1)
+  - GoogleAPIClientForREST/Drive (3.1.0):
+    - GoogleAPIClientForREST/Core
+    - GTMSessionFetcher/Full (< 4.0, >= 1.6.1)
+  - GoogleSignIn (7.0.0):
+    - AppAuth (~> 1.5)
+    - GTMAppAuth (< 3.0, >= 1.3)
+    - GTMSessionFetcher/Core (< 4.0, >= 1.1)
+  - GTMAppAuth (2.0.0):
+    - AppAuth/Core (~> 1.6)
+    - GTMSessionFetcher/Core (< 4.0, >= 1.5)
+  - GTMSessionFetcher/Core (3.1.1)
+  - GTMSessionFetcher/Full (3.1.1):
+    - GTMSessionFetcher/Core
+  - MSAL (1.2.5):
+    - MSAL/app-lib (= 1.2.5)
+  - MSAL/app-lib (1.2.5)
+  - Realm (10.42.1):
+    - Realm/Headers (= 10.42.1)
+  - Realm/Headers (10.42.1)
+  - RealmSwift (10.42.1):
+    - Realm (= 10.42.1)
+  - SDWebImage (5.18.0):
+    - SDWebImage/Core (= 5.18.0)
+  - SDWebImage/Core (5.18.0)
+  - SwiftyDropbox (9.2.0):
+    - Alamofire (~> 5.4.3)
+  - Toast-Swift (5.0.1)
+  - UIScrollView-InfiniteScroll (1.3.0)
+
+DEPENDENCIES:
+  - BoxSDK (~> 5.0)
+  - ffmpeg-kit-ios-full (~> 5.1)
+  - GoogleAPIClientForREST/Drive
+  - GoogleSignIn
+  - MSAL
+  - RealmSwift
+  - SDWebImage
+  - SwiftyDropbox
+  - Toast-Swift (~> 5.0.1)
+  - UIScrollView-InfiniteScroll (~> 1.3.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AppAuth
+    - BoxSDK
+    - ffmpeg-kit-ios-full
+    - GoogleAPIClientForREST
+    - GoogleSignIn
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - MSAL
+    - Realm
+    - RealmSwift
+    - SDWebImage
+    - SwiftyDropbox
+    - Toast-Swift
+    - UIScrollView-InfiniteScroll
+
+SPEC CHECKSUMS:
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  AppAuth: 3bb1d1cd9340bd09f5ed189fb00b1cc28e1e8570
+  BoxSDK: e85dabf6ea03448061bc29004e9aa67b3fd965c5
+  ffmpeg-kit-ios-full: 4a02624db22a9ea1e92e3b6707bffe67c76f4aad
+  GoogleAPIClientForREST: b606c614570575ffccbde27a3ee5e761b169fca4
+  GoogleSignIn: b232380cf495a429b8095d3178a8d5855b42e842
+  GTMAppAuth: 99fb010047ba3973b7026e45393f51f27ab965ae
+  GTMSessionFetcher: e8647203b65cee28c5f73d0f473d096653945e72
+  MSAL: 5149daaa19228c2c27d81987634da15b50981cef
+  Realm: f433b80a05f68575e88364d6fcc6234965ccc5af
+  RealmSwift: 757e1416e2314f7e1543abdb2aa65b311d7b6545
+  SDWebImage: 182830bcddc30cde95fbc60dfe4badc3553d94ba
+  SwiftyDropbox: 073c7e0852bf50d858163140f56d0a1133b79b48
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+  UIScrollView-InfiniteScroll: a30af3dec185edd26d6ad50c521aa277f3ebf177
+
+PODFILE CHECKSUM: 3f104dc0466f87b16ac909be65467a422bc5b876
+
+COCOAPODS: 1.12.1
